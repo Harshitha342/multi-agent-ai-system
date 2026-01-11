@@ -63,25 +63,28 @@ Each agent reads from and writes to a **shared state object**, ensuring no loss 
 multi-agent-ai-system/
 │
 ├── agents/
-│ ├── base_agent.py
-│ ├── researcher_agent.py
-│ ├── writer_agent.py
-│ └── critic_agent.py
+│   ├── __init__.py
+│   ├── base_agent.py
+│   ├── researcher_agent.py
+│   ├── writer_agent.py
+│   └── critic_agent.py
 │
 ├── orchestrator/
-│ └── orchestrator.py
+│   ├── __init__.py
+│   └── orchestrator.py
 │
 ├── memory/
-│ └── shared_state.py
+│   ├── __init__.py
+│   └── shared_state.py
 │
 ├── logs/
-│ └── system.log
+│   └── system.log
 │
 ├── example.py
+├── requirements.txt
 ├── README.md
 ├── evaluation.md
 └── architecture.png
-
 
 ---
 
