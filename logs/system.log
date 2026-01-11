@@ -1,0 +1,12 @@
+2026-01-11 15:15:15,051 | Orchestrator | Workflow started
+2026-01-11 15:15:15,051 | Orchestrator | User task: Write a brief blog post about the benefits of multi-agent AI systems.
+2026-01-11 15:15:15,051 | Orchestrator | Sending task to ResearcherAgent
+2026-01-11 15:15:15,051 | ResearcherAgent | Starting research
+2026-01-11 15:15:15,052 | ResearcherAgent | Research completed
+2026-01-11 15:15:15,052 | Orchestrator | Sending task to WriterAgent
+2026-01-11 15:15:15,052 | WriterAgent | Starting writing
+2026-01-11 15:15:15,052 | WriterAgent | Draft created
+2026-01-11 15:15:15,052 | Orchestrator | Sending task to CriticAgent
+2026-01-11 15:15:15,052 | CriticAgent | Starting critique
+2026-01-11 15:15:15,052 | CriticAgent | Critique completed
+2026-01-11 15:15:15,053 | Orchestrator | Workflow completed
